@@ -15,6 +15,10 @@
     padding: 12px 24px;
   }
 
+  .button-box {
+    justify-content: center;
+  }
+
   #banner {
     flex-direction: column-reverse;
   }
@@ -65,5 +69,22 @@
 
   .country-card-container {
     flex-direction: column;
+  }
+
+  .country-card-container h2 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #3e3e3e;
+    text-align: center;
+  }
+
+  .footer-container p {
+    font-size: 12px;
+  }
+  .social-icon-div {
+    gap: 0;
   }
 }
