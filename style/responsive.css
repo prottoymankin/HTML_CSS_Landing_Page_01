@@ -63,6 +63,10 @@
     font-size: 32px;
   }
 
+  .button-box {
+    flex-direction: column;
+  }
+
   .story-content {
     text-align: center;
   }

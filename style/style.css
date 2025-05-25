@@ -20,7 +20,6 @@ img {
   border-radius: 1.875rem;
   color: #FFFFFF;
   cursor: pointer;
-  margin-right: 0.625rem;
   padding: 1rem 2rem;
 }
 
@@ -29,7 +28,6 @@ img {
   border: 1px solid #872BFF;
   border-radius: 1.875rem;
   cursor: pointer;
-  margin-right: 0.625rem;
   padding: 1rem 2rem;
 }
 
@@ -93,6 +91,7 @@ img {
 
 .button-box {
   display: flex;
+  gap: 10px;
 }
 
 #service,
