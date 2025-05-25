@@ -16,11 +16,18 @@ img {
 
 .primary-button {
   background-color: #872BFF;
-  border: none;
+  border: 1px solid #872BFF;
   border-radius: 1.875rem;
   color: #FFFFFF;
   cursor: pointer;
   padding: 1rem 2rem;
+  font-weight: 700;
+  transition: all .3s ease;
+}
+
+.primary-button:hover {
+  background-color: #FFFFFF;
+  color: #872BFF;
 }
 
 .secondary-button {
@@ -28,7 +35,15 @@ img {
   border: 1px solid #872BFF;
   border-radius: 1.875rem;
   cursor: pointer;
+  font-weight: 700;
   padding: 1rem 2rem;
+  color: #872BFF;
+  transition: all .3s ease;
+}
+
+.secondary-button:hover {
+  background-color: #872BFF;
+  color: #FFFFFF;
 }
 
 .heading-content {
@@ -56,7 +71,7 @@ img {
   background-image: url(../images/hero-bg.png);
   border: 2px solid #872BFF10;
   border-radius: 2.5rem;
-  margin: 6.25rem auto 7.5rem;
+  margin: 2.5rem auto 7.5rem;
   padding: 1.25rem 1.875rem;
   width: 87.5%;
 
