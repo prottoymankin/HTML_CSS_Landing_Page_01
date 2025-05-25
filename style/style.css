@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, #FFFFFF, #EBDCFF);
+}
+
+img {
+  width: 100%;
+}
+
+.primary-button {
+  background-color: #872BFF;
+  border: none;
+  border-radius: 1.875rem;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-right: 0.625rem;
+  padding: 1rem 2rem;
+}
+
+.secondary-button {
+  background-color: #FFFFFF;
+  border: 1px solid #872BFF;
+  border-radius: 1.875rem;
+  cursor: pointer;
+  margin-right: 0.625rem;
+  padding: 1rem 2rem;
+}
+
+.heading-content {
+  text-align: center;
+}
+
+.heading-content h4 {
+  color: #F411CF;
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  margin-bottom: 0.875rem;
+  text-transform: uppercase;
+}
+
+.heading-content h2 {
+  color: black;
+  font-size: 2.75rem;
+  font-weight: bold;
+  margin-bottom: 3.75rem;
+}
+
+#banner {
+  background: #FFFFFF;
+  background-image: url(../images/hero-bg.png);
+  border: 2px solid #872BFF10;
+  border-radius: 2.5rem;
+  margin: 6.25rem auto 7.5rem;
+  padding: 1.25rem 1.875rem;
+  width: 87.5%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-content {
+  width: 50%;
+}
+
+.banner-content h1 {
+  font-size: 4.375rem;
+  font-weight: bold;
+}
+
+.banner-content h1 span {
+  color: #F411CF;
+}
+
+.banner-content p {
+  color: #A8A8A8;
+  font-size: 1.125rem;
+  font-weight: medium;
+  margin-block: 2.375rem;
+}
+
+.banner-image {
+  width: 50%;
+}
+
+.button-box {
+  display: flex;
+  justify-content: center;
+}
+
+#service,
+#story,
+#country,
+#review {
+  margin: 0 auto 7.5rem auto;
+  width: 87.5%;
+}
+
+.service-card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.service-card {
+  background-color: #FDFFFF;
+  border-radius: 1.875rem;
+  padding: 70px 50px;
+  text-align: center;
+  max-width: 380px;
+}
+
+.service-card img {
+  width: 80px;
+  margin-bottom: 30px;
+}
+
+.service-card h2 {
+  font-size: 28px;
+  font-weight: semibold;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.service-card p {
+  color: #A8A8A8;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.story-card {
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  padding: 48px;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.story-content {
+  width: 60%;
+}
+
+.story-image {
+  width: 40%;
+}
+
+.story-image img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 32px;
+}
+
+.story-content h2 {
+  font-size: 2rem;
+  color: #3E3E3E;
+}
+
+.story-content img {
+  width: 100px;
+  margin: 12px 0;
+}
+
+.story-content p {
+  color: #565656;
+  margin-bottom: 32px;
+}
+
+.country-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 0 20px;
+  margin-bottom: 60px;
+}
+
+.country-card-container h2 {
+  background-color: #FFFFFF;
+  padding: 40px;
+  border-radius: 16px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #3E3E3E;
+  text-align: center;
+}
+
+.country-button {
+  text-align: center;
+}
+
+.review-card {
+  background-color: #FFFFFF;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 24px;
+  margin-bottom: 60px;
+}
+
+.review-card p {
+  color: #3E3E3E;
+  line-height: 1.8;
+  margin-bottom: 42px;
+  font-size: 17px;
+}
+
+.review-card h2 {
+  font-size: 20px;
+  color: #3E3E3E;
+}
+
+.review-card h4 {
+  font-size: 16px;
+  color: #6E6E6E;
+  font-weight: 500;
+}
+
+footer {
+  background-color: #FFFFFF;
+}
+
+.footer-container {
+  width: 87.5%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.footer-container p {
+  color: #5B5757;
+}
+
+.social-icon-div {
+  display: flex;
+  gap: 32px;
+}
